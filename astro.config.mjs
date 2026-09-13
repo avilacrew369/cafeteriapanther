@@ -13,7 +13,7 @@ export default defineConfig({
 },
 
   image: {
-    domains: ['panther-black-dev.me/'],
+    domains: ['panther-black-dev.me'],
     remotePatterns: [
       {
         protocol: "http",
@@ -25,7 +25,7 @@ export default defineConfig({
       },
       {
         protocol: "https",
-        hostname: "panther-black-dev.me/",
+        hostname: "panther-black-dev.me",
         pathname: "/wp-content/uploads/**"
       },
     ],
