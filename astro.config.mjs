@@ -13,7 +13,7 @@ export default defineConfig({
 },
 
   image: {
-    domains: ['mistyrose-squirrel-580231.hostingersite.com'],
+    domains: ['panther-black-dev.me/'],
     remotePatterns: [
       {
         protocol: "http",
@@ -25,7 +25,7 @@ export default defineConfig({
       },
       {
         protocol: "https",
-        hostname: "mistyrose-squirrel-580231.hostingersite.com",
+        hostname: "panther-black-dev.me/",
         pathname: "/wp-content/uploads/**"
       },
     ],
