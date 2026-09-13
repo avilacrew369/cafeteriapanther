@@ -1,0 +1,18 @@
+---
+import "@/styles/global.css";
+import Panther from "@/layouts/Panther.astro";
+import bg from '@/assets/pandig.svg'
+
+---
+<Panther 
+    title="Error pagina no existe"
+    subtitle="Pagina No Encontrada"
+    bgImage={bg.src}
+    >
+    <p class="text-center bg-red-200 py-4 text-2xl text-red-700 mb-5">Pagina no Existe</p>
+    <p  class="text-center text-4xl"> Regresar al {''}
+        <a href="/" class="font-bold underline  text-blue-600 hover:pointer hover:bg-blue-200 ">Inicio</a>
+
+    </p>
+
+</Panther>

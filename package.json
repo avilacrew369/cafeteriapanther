@@ -1,0 +1,30 @@
+{
+  "name": "cafeteriapanther",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^8.2.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.2",
+    "leaflet": "^1.9.4",
+    "notyf": "^3.10.0",
+    "photoswipe": "^5.4.4",
+    "tailwindcss": "^4.3.3"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "fsevents@2.3.3": true
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22"
+  }
+}
