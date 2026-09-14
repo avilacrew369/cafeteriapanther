@@ -26,6 +26,9 @@ const { subtitle, bgImage } = Astro.props
             <MainNav />
         </div>
 
-        <h1 class="text-4xl font-black uppercase text-white text-center mt-12">{subtitle}</h1>
+          <h1 class:list={[
+            'text-4xl font-black text-center mt-12',
+            Astro.url.pathname === '/contacto/' ? 'text-blue-500' : 'text-coffee-300 uppercase'
+        ]}>{subtitle}</h1>
     </div>
 </header>
