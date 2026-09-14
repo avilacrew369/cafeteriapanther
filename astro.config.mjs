@@ -32,4 +32,11 @@ export default defineConfig({
   },
 
   adapter: netlify(),
+  someAsyncFunction()
+  .then(result => {
+    // Handle successful result
+  })
+  .catch(error => {
+    console.error('Error occurred:', error);
+  });
 });
