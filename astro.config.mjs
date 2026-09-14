@@ -31,5 +31,11 @@ export default defineConfig({
     ],
   },
 
-  adapter: netlify(),
+  adapter: netlify({
+     devFeatures: {
+      images: true,
+      environmentVariables: false,
+      edgeFunctions: false,
+    },
+  }),
 });
