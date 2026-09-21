@@ -13,7 +13,7 @@ export default defineConfig({
 },
 
   image: {
-    domains: ['panther-black-dev.me'],
+    domains: ['panther-black-dev.me', 'darkred-hawk-567253.hostingersite.com'],
     remotePatterns: [
       {
         protocol: "http",
@@ -26,6 +26,11 @@ export default defineConfig({
       {
         protocol: "https",
         hostname: "panther-black-dev.me",
+        pathname: "/wp-content/uploads/**"
+      },
+      {
+        protocol: "https",
+        hostname: "darkred-hawk-567253.hostingersite.com",
         pathname: "/wp-content/uploads/**"
       },
     ],
